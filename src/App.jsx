@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { Header } from "./components/Navbar/navbar";
 
 function App() {
   return (
-    <>
-      <p>Hello World!</p>
-    </>
+    <body>
+      <Header />
+    </body>
   )
 }
 

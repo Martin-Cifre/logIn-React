@@ -1,0 +1,10 @@
+@import "../../vars.css";
+
+section{
+    background-color: var(--color-key);
+    height: 150px;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
