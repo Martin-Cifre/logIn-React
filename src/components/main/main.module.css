@@ -1,0 +1,27 @@
+@import "../../vars.css";
+
+.container{
+    background-color: var(--color-primary);
+    margin: 100px 20%;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+.title{
+    color: var(--color-key);
+    font-size: 40px;
+    opacity: 50%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form input{
+    border-radius: 10px;
+}
+.button{}
