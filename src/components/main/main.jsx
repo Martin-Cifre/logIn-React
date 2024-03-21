@@ -15,11 +15,9 @@ export const Main = () => {
           placeholder="Contraseña"
           required
         />
-        <input
-          type="submit"
-          value="Iniciar Sesión"
-          className={styles.button}
-        />
+        <button type="submit">
+          Iniciar Sesión
+        </button>
       </form>
     </div>
   );

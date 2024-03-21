@@ -6,22 +6,33 @@
     padding: 20px;
     border-radius: 25px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10%;
 }
 .title{
-    color: var(--color-key);
     font-size: 40px;
-    opacity: 50%;
+    margin-right: 20%;
 }
 .form{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+    align-items: center;
 }
 .form input{
-    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    outline: none;
 }
-.button{}
+.form button{
+    margin-top: 25px;
+    background-color: var(--color-buttons);
+}
