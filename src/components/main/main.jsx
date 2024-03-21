@@ -15,10 +15,19 @@ export const Main = () => {
           placeholder="Contraseña"
           required
         />
-        <button type="submit">
-          Iniciar Sesión
-        </button>
+        <button type="submit">Log In</button>
       </form>
+
+      <div className={styles.line}></div>
+
+      <div className={styles.options}>
+        <p>
+          Aun no tienes cuenta? <a href="#">Registrate</a>
+        </p>
+        <p>
+          <a href="#">Olvidé mi contraseña</a>
+        </p>
+      </div>
     </div>
   );
 }
