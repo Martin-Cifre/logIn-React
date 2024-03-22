@@ -14,8 +14,22 @@ export const Header = () => {
         Lizard
       </div>
       <ul>
-        <li>log-in</li>
-        <li>sign-up</li>
+        <li>
+          <img
+            src={getImgUrl("navbar/login.png")}
+            alt="login"
+            className={styles.icon}
+          />
+          log-in
+        </li>
+        <li>
+          <img
+            src={getImgUrl("navbar/signup.png")}
+            alt="signup"
+            className={styles.icon}
+          />
+          sign-up
+        </li>
       </ul>
     </section>
   );

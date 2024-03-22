@@ -16,6 +16,7 @@ section{
     gap: 25px;
     font-size: 22px;
     cursor: pointer;
+    
 }
 
 .navImg {
@@ -32,4 +33,11 @@ li{
     list-style-type: none;
     text-decoration: none;
     cursor: pointer;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: text-top;
 }
