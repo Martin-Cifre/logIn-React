@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 section{
-    background-color: var(--color-key);
+    background-color: var(--color-primary);
     height: 150px;
     margin: 0%;
     display: flex;
@@ -14,8 +14,11 @@ section{
     flex-direction: row;
     align-items: center;
     gap: 25px;
-    font-size: 22px;
+    font-size: 30px;
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 10px;
     
 }
 
@@ -30,6 +33,7 @@ ul{
 }
 
 li{
+    font-size: 23px;
     list-style-type: none;
     text-decoration: none;
     cursor: pointer;

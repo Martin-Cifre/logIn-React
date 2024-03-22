@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container{
-    background-color: var(--color-primary);
+    background-color: var(--color-bg);
     margin: 100px 20%;
     padding: 20px;
     border-radius: 25px;
@@ -10,6 +10,8 @@
     justify-content: space-around;
     gap: 10%;
     text-align: center;
+    border-bottom: 15px solid white;
+    border-right:  15px solid white;
 }
 .title{
     font-size: 35px;

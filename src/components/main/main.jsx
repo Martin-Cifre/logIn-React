@@ -6,7 +6,7 @@ export const Main = () => {
   return (
     <div className={styles.container}>
       <div>
-        <p className={styles.title}>Ingresa a tu cuenta!</p>
+        <p className={styles.title}>▶ Ingresa a tu cuenta!</p>
         <img
           src={getImgUrl("Main/user.png")}
           alt="login"
