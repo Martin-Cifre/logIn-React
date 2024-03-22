@@ -9,9 +9,15 @@
     flex-direction: row;
     justify-content: space-around;
     gap: 10%;
+    text-align: center;
 }
 .title{
     font-size: 35px;
+}
+
+.user{
+    height: 150px;
+    opacity: 50%;
 }
 
 .containForm{

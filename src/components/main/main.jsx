@@ -1,11 +1,18 @@
-/*import React from 'react'
-import { getImgUrl } from "../../utils.js";*/
+import React from 'react'
+import { getImgUrl } from "../../utils.js";
 import styles from "./main.module.css";
 
 export const Main = () => {
   return (
     <div className={styles.container}>
-      <p className={styles.title}>Ingresa a tu cuenta!</p>
+      <div>
+        <p className={styles.title}>Ingresa a tu cuenta!</p>
+        <img
+          src={getImgUrl("Main/user.png")}
+          alt="login"
+          className={styles.user}
+        />
+      </div>
       <div className={styles.containForm}>
         <form action="#" method="post" className={styles.form}>
           <input type="text" name="username" placeholder="Usuario" required />
