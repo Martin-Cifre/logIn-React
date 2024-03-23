@@ -2,7 +2,7 @@ import React from 'react';
 import { getImgUrl } from "../../utils.js";
 import styles from "./navbar.module.css";
 
-export const Header = () => {
+export const Navbar = () => {
   return (
     <section>
       <div className={styles.nav1}>
