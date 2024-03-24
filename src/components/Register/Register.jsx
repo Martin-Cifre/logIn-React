@@ -58,9 +58,6 @@ export const Register = () => {
           <p>
             ¿Ya tienes una cuenta? <a href="#">Inicia sesión</a>
           </p>
-          <p>
-            <a href="#">¿Olvidaste tu contraseña?</a>
-          </p>
         </div>
       </div>
     </div>
