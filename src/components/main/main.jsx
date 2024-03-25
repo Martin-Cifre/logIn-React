@@ -29,7 +29,7 @@ export const Main = () => {
 
         <div className={styles.options}>
           <p>
-            Aun no tienes cuenta? <a href="#">Registrate</a>
+            Aun no tienes cuenta? <a href="/signup">Registrate</a>
           </p>
           <p>
             <a href="#">Olvidé mi contraseña</a>

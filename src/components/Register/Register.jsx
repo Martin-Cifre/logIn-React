@@ -35,7 +35,7 @@ export const Register = () => {
 
         <div className={styles.options}>
           <p>
-            ¿Ya tienes una cuenta? <a href="#">Inicia sesión</a>
+            ¿Ya tienes una cuenta? <a href="/login">Inicia sesión</a>
           </p>
         </div>
       </div>
